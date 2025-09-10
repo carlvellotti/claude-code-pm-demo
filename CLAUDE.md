@@ -125,3 +125,7 @@ curl -sSL https://raw.githubusercontent.com/automazeio/ccpm/main/ccpm.sh | bash
 - **Quality**: Professional outputs following best practices
 - **Integration**: Connected tool ecosystem functionality
 - **Accessibility**: Show PM capabilities without coding requirements
+
+## Best Practices for Version Control
+
+- Never commit anything unless confirming first

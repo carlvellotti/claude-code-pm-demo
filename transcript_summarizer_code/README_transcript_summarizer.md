@@ -11,7 +11,7 @@ A tool to test different summarization prompts against multiple AI models (Gemin
 
 - **Multiple AI Models:**
   - Google Gemini (gemini-pro)
-  - X.AI Grok (grok-beta)
+  - OpenAI ChatGPT (gpt-4-turbo-preview)
   - DeepSeek (deepseek-chat)
 
 - **Performance Tracking:**
@@ -29,7 +29,7 @@ A tool to test different summarization prompts against multiple AI models (Gemin
 2. Set up API keys as environment variables:
    ```bash
    export GEMINI_API_KEY="your-gemini-api-key"
-   export GROK_API_KEY="your-grok-api-key"
+   export CHATGPT_API_KEY="your-chatgpt-api-key"
    export DEEPSEEK_API_KEY="your-deepseek-api-key"
    ```
 
@@ -51,7 +51,7 @@ This script will prompt for API keys if they're not already set.
 Results are saved in the `results/` directory:
 
 - `results/gemini/` - Gemini model outputs
-- `results/grok/` - Grok model outputs  
+- `results/chatgpt/` - Grok model outputs  
 - `results/deepseek/` - DeepSeek model outputs
 - `results/all_results.json` - Complete results with metadata
 - `results/comparison_report.md` - Side-by-side comparison report

@@ -12,6 +12,10 @@ from typing import Dict, List, Tuple
 import google.generativeai as genai
 import requests
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Prompt templates
 PROMPTS = {
@@ -51,16 +55,12 @@ Transcript:
 class TranscriptSummarizer:
     def __init__(self):
         self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
+        self.chatgpt_api_key = os.environ.get("CHATGPT_API_KEY")
         self.grok_api_key = os.environ.get("GROK_API_KEY")
-        self.deepseek_api_key = os.environ.get("DEEPSEEK_API_KEY")
         
         # Initialize results directory
         self.results_dir = Path("results")
         self.results_dir.mkdir(exist_ok=True)
-        
-        # Create subdirectories for each model
-        for model in ["gemini", "grok", "deepseek"]:
-            (self.results_dir / model).mkdir(exist_ok=True)
     
     def load_transcript(self, filepath: str = "transcript_example.txt") -> str:
         """Load the transcript from file"""
@@ -74,7 +74,7 @@ class TranscriptSummarizer:
         
         try:
             genai.configure(api_key=self.gemini_api_key)
-            model = genai.GenerativeModel('gemini-pro')
+            model = genai.GenerativeModel('gemini-1.5-flash')
             
             start_time = time.time()
             response = model.generate_content(prompt)
@@ -99,7 +99,7 @@ class TranscriptSummarizer:
                 "messages": [
                     {"role": "user", "content": prompt}
                 ],
-                "model": "grok-beta",
+                "model": "grok-3",
                 "temperature": 0.7
             }
             
@@ -120,28 +120,28 @@ class TranscriptSummarizer:
         except Exception as e:
             return f"Error: {str(e)}", 0, {"error": str(e)}
     
-    def call_deepseek(self, prompt: str) -> Tuple[str, float, Dict]:
-        """Call DeepSeek API and return response with timing"""
-        if not self.deepseek_api_key:
-            return "Error: DEEPSEEK_API_KEY not found", 0, {"error": "API key missing"}
+    def call_chatgpt(self, prompt: str) -> Tuple[str, float, Dict]:
+        """Call ChatGPT API and return response with timing"""
+        if not self.chatgpt_api_key:
+            return "Error: CHATGPT_API_KEY not found", 0, {"error": "API key missing"}
         
         try:
             headers = {
-                "Authorization": f"Bearer {self.deepseek_api_key}",
+                "Authorization": f"Bearer {self.chatgpt_api_key}",
                 "Content-Type": "application/json"
             }
             
             data = {
-                "model": "deepseek-chat",
                 "messages": [
                     {"role": "user", "content": prompt}
                 ],
+                "model": "gpt-4-turbo-preview",
                 "temperature": 0.7
             }
             
             start_time = time.time()
             response = requests.post(
-                "https://api.deepseek.com/v1/chat/completions",
+                "https://api.openai.com/v1/chat/completions",
                 headers=headers,
                 json=data
             )
@@ -156,6 +156,7 @@ class TranscriptSummarizer:
         except Exception as e:
             return f"Error: {str(e)}", 0, {"error": str(e)}
     
+    
     def run_all_tests(self):
         """Run all prompt/model combinations"""
         transcript = self.load_transcript()
@@ -167,8 +168,8 @@ class TranscriptSummarizer:
         
         models = {
             "gemini": self.call_gemini,
-            "grok": self.call_grok,
-            "deepseek": self.call_deepseek
+            "chatgpt": self.call_chatgpt,
+            "grok": self.call_grok
         }
         
         print("Starting transcript summarization tests...")
@@ -197,22 +198,55 @@ class TranscriptSummarizer:
                 
                 results["results"][prompt_type][model_name] = result_data
                 
-                # Save to individual file
-                filename = self.results_dir / model_name / f"{prompt_type}_summary.txt"
-                with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(response)
-                
                 print(f" Done ({duration:.2f}s, {len(response)} chars)")
         
         # Save complete results
         with open(self.results_dir / "all_results.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
         
-        # Generate comparison report
-        self.generate_comparison_report(results)
+        # Generate consolidated prompt files
+        self.generate_prompt_files(results)
         
         print("\nAll tests completed!")
         print(f"Results saved to: {self.results_dir}")
+    
+    def generate_prompt_files(self, results: Dict):
+        """Generate one file per prompt type with all model responses"""
+        for prompt_type, prompt_template in PROMPTS.items():
+            content = []
+            content.append(f"# {prompt_type.capitalize()} Summary Results\n")
+            content.append(f"Generated: {datetime.now().isoformat()}\n")
+            content.append(f"Transcript Length: {results['transcript_length']} characters\n")
+            
+            # Add the prompt
+            content.append("\n## Prompt:\n")
+            content.append("```\n")
+            content.append(prompt_template.replace("{transcript}", "[TRANSCRIPT TEXT HERE]"))
+            content.append("\n```\n")
+            
+            # Add each model's response
+            if prompt_type in results["results"]:
+                for model in ["gemini", "chatgpt", "grok"]:
+                    if model in results["results"][prompt_type]:
+                        data = results["results"][prompt_type][model]
+                        content.append(f"\n## {model.capitalize()} Response:\n")
+                        content.append(f"**Duration**: {data['duration_seconds']:.2f} seconds\n")
+                        content.append(f"**Length**: {data['response_length']} characters\n")
+                        content.append(f"**Status**: {data['metadata'].get('status', 'error')}\n")
+                        content.append("\n```\n")
+                        content.append(data['response'])
+                        if not data['response'].endswith('\n'):
+                            content.append('\n')
+                        content.append("```\n")
+            
+            # Save to file
+            filename = self.results_dir / f"{prompt_type}_summary_results.txt"
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.writelines(content)
+        
+        print(f"\nCreated 3 summary files:")
+        for prompt_type in PROMPTS.keys():
+            print(f"  - {prompt_type}_summary_results.txt")
     
     def generate_comparison_report(self, results: Dict):
         """Generate a markdown report comparing all results"""
@@ -223,7 +257,7 @@ class TranscriptSummarizer:
         for prompt_type in ["short", "medium", "detailed"]:
             report.append(f"\n## {prompt_type.capitalize()} Summary Comparison\n")
             
-            for model in ["gemini", "grok", "deepseek"]:
+            for model in ["gemini", "chatgpt", "grok"]:
                 if model in results["results"][prompt_type]:
                     data = results["results"][prompt_type][model]
                     report.append(f"\n### {model.capitalize()}\n")
@@ -241,7 +275,7 @@ class TranscriptSummarizer:
         report.append("|-------|-------------|--------------|----------------|\n")
         
         for prompt_type in ["short", "medium", "detailed"]:
-            for model in ["gemini", "grok", "deepseek"]:
+            for model in ["gemini", "chatgpt", "grok"]:
                 if model in results["results"][prompt_type]:
                     data = results["results"][prompt_type][model]
                     if data['metadata'].get('status') == 'success':

@@ -13,9 +13,9 @@ if [ -z "$GEMINI_API_KEY" ]; then
     read -r GEMINI_API_KEY
 fi
 
-if [ -z "$GROK_API_KEY" ]; then
-    echo "Please enter your GROK_API_KEY:"
-    read -r GROK_API_KEY
+if [ -z "$CHATGPT_API_KEY" ]; then
+    echo "Please enter your CHATGPT_API_KEY:"
+    read -r CHATGPT_API_KEY
 fi
 
 if [ -z "$DEEPSEEK_API_KEY" ]; then
@@ -25,7 +25,7 @@ fi
 
 # Export API keys
 export GEMINI_API_KEY
-export GROK_API_KEY  
+export CHATGPT_API_KEY  
 export DEEPSEEK_API_KEY
 
 # Run the Python script

@@ -1,0 +1,38 @@
+# Short Summary Results
+Generated: 2025-09-09T20:42:13.541023
+Transcript Length: 9174 characters
+
+## Prompt:
+```
+Summarize this YouTube transcript in 2-3 sentences. Focus only on the main topic and key takeaway. Be extremely concise.
+
+Transcript:
+[TRANSCRIPT TEXT HERE]
+```
+
+## Gemini Response:
+**Duration**: 1.03 seconds
+**Length**: 443 characters
+**Status**: success
+
+```
+The video explains the nocebo effect, where believing something harmless is harmful can cause real negative effects like headaches or illness symptoms.  This is demonstrated through examples in medical trials and mass psychogenic illnesses, highlighting how belief, not objective reality, can significantly impact health.  Understanding the nocebo effect is crucial for both medical practice and understanding the spread of certain illnesses.
+```
+
+## Chatgpt Response:
+**Duration**: 3.02 seconds
+**Length**: 574 characters
+**Status**: success
+
+```
+The video discusses the nocebo effect, a phenomenon where harmless substances or situations cause negative health effects simply because individuals believe they are harmful. It explains how expectations and beliefs can lead to real physical symptoms, such as headaches or rashes, even in the absence of a real harmful stimulus. This effect is demonstrated through various experiments, including ones where participants experience side effects from fake drugs or develop symptoms from non-existent hazards, highlighting the powerful influence of the mind on physical health.
+```
+
+## Grok Response:
+**Duration**: 2.66 seconds
+**Length**: 508 characters
+**Status**: success
+
+```
+This video explores the nocebo effect, a phenomenon where belief in harm from a harmless stimulus, like a fake hypersound or placebo, causes real physical symptoms such as headaches or pain. Key examples include medical trials where patients experience side effects from fake drugs and mass psychogenic illnesses spread by belief rather than actual exposure. The main takeaway is that our beliefs can significantly influence physical health, turning harmless situations into harmful ones through expectation.
+```
