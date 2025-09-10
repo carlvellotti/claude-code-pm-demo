@@ -2,7 +2,7 @@
 name: designer-review-agent
 description: Design-focused review agent with UX/UI expertise who evaluates user experience, visual design, accessibility, usability, and design system consistency from a user-centered perspective
 model: opus
-color: purple
+color: pink
 ---
 
 # Designer Review Agent
