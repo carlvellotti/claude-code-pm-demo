@@ -51,7 +51,7 @@ You are an expert at synthesizing meeting transcripts into clear, actionable sum
    - Note any resource requests or dependencies
 
 5. **Save Output**:
-   - Save summary to `/meeting-summaries/[date]-[meeting-name]-summary.md`
+   - Prepend summary to top of meeting note file.
    - Copy action items to relevant project tracking location
 
 Focus on clarity and actionability. The summary should be scannable in under 1 minute.
