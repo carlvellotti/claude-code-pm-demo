@@ -1,0 +1,676 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/g-Yb7CFWItk
+
+00:00:00.000 No text
+00:00:00.080 Can you break down for us what is an AI agent? Because we've all experienced chat GPT, but what makes an agent so
+00:00:05.520 special? Well, for me, agents is really delivering on the promise of AI. Now, we got into this chatbot era, but like
+00:00:12.080 agents, they really deliver the wall of automation. You have this tremendous handwritten drawing demonstrating what our agents
+00:00:18.960 So, can you walk us through the steps? Yeah, four simple steps. The first one is thinking, second step, the planning, and then the third component is action.
+00:00:25.600 Fourth step is reflection. Alman Ruiz is the VP of AI platform at IBM and he has
+00:00:31.599 amassed over 200,000 LinkedIn followers in just two years for his takes on AI.
+00:00:36.719 So you've been in AI for 16 years. What have they been the biggest open-source releases over time? LLMs. I think Mral did massive things
+00:00:43.680 when they came into the market. They were also I think the first to provide a mixture of experts. There are hundreds
+00:00:49.440 of thousands of open source models. So let's get to IBM. How is IBM going to make big waves in the AI space? One of
+00:00:55.520 the things I'm very bullish is about providing customers flexibility to deploy AI anywhere and to tap into any
+00:01:01.359 AI engine they want. It's about jumping in using the tools. What's like a good road map if you had
+00:01:07.200 to give somebody if they're going from zero to one to ramp up on all these tools like which tools should they try
+00:01:12.320 first in what order? I think first [Music]
+00:01:20.799 really quickly I think a crazy stat is that more than 50% of you listening are not subscribed. If you can subscribe on
+00:01:27.520 YouTube, follow on Apple or Spotify podcasts, my commitment to you is that
+00:01:32.640 we'll continue to make this content better and better. And now on to today's episode.
+00:01:39.360 Arman Ruiz is the VP of AI platform at IBM and has amassed over 200,000
+00:01:45.200 followers on LinkedIn in less than two years for his takes on AI. In today's
+00:01:50.320 episode, we're going to break down everything you need to know about AI agents and open-source AI. We also cover
+00:01:56.799 his path from intern to VP in less than 14 years and his takes on the future of
+00:02:02.000 the product management role. Armand, welcome to the podcast. So happy to be here. Finally, we make
+00:02:08.160 it. Yeah, I think we both were talking off air that we mutually have been reading each other's work on LinkedIn. So, it's
+00:02:14.560 really exciting to chat. I think it has this cool effect which I can see as a reader which is I almost feel like I
+00:02:20.400 understand how you think. Same same here. I've been following your journey, your newsletter, listening to
+00:02:26.160 your podcast. So, yeah, very impressive work. Thank you. Likewise. Daily LinkedIn posting for you for two years. And I
+00:02:33.200 think this thread you've been on probably for almost the last year, so a lot earlier than other people is AI
+00:02:38.959 agents. So can you break down for us what is an AI agent because we've all experienced chat GPT, but what makes an
+00:02:39.000 No text
+00:02:45.120 agent so special? Well, for me agents is really delivering on the on the promise of AI. So uh we've
+00:02:53.040 been through this journey where I I've been working in AI for 14 years now and at first it was just predictive
+00:02:59.040 analytics doing predictions giving uh just uh rough numbers for forecasting
+00:03:04.720 and and things like that. Now we got into into this chatbot era but like agents do they really deliver uh the
+00:03:11.120 wall of automation that is going to unlock uh everyone uh and people and
+00:03:16.959 businesses to generate way more output. So that's why I'm extremely bullish and very excited about it. And um yeah, I've
+00:03:23.680 been talking about agents from the very very beginning and they were already some early projects showing the the the
+00:03:30.080 potential maybe AGI or Auto GPT. Uh those were amazing and and then yeah,
+00:03:36.400 the whole world now is uh prioritizing agents. Yeah, those are I think almost 2023
+00:03:42.000 news. It took two years for the world to really catch up. Yeah. Yeah. Absolutely. Absolutely. So
+00:03:48.319 um uh part of my job right now at IBM is to lead AI platforms. So really building
+00:03:54.159 the the blogs building blocks for enterprises to build securely AI agents
+00:03:59.360 and embed them into different business functions. Uh I just came yesterday night from meeting a CIO. I met another
+00:04:06.480 CIO last week. So I'm meeting some of the biggest customers from the biggest brands. they all have AI as the number
+00:04:12.879 one priority in their agenda and and agents is one of their core components. So there are a lot of different factors
+00:04:19.120 on how they empower employees to experiment with the technology but then at the same time how they can take it
+00:04:24.720 into production in a very safe and secure way and there are everything in between in different levels of uh risk
+00:04:32.000 and innovation appetite that they have. M so as someone who's educating people about AI agents when I saw your
+00:04:38.479 handwritten drawing I was just like that is a piece of art that is something that really helps people understand AI agents
+00:04:40.000 No text
+00:04:45.600 so can you walk us through this like what are the building blocks of an AI agent yeah so uh the first phase is uh
+00:04:52.560 thinking uh if we've been in this world of LLMs and we've seen LLMs at first
+00:04:58.560 they were just spitting texts and now we see that step of like thinking you
+00:05:03.680 thinking is uh is number one step. That's why we hear about LLMs being very
+00:05:08.880 good at reasoning. So and and um also we see we hear Jensen saying, "Hey, with
+00:05:16.080 aentic systems and new LLMs, we're going to use more tokens, more inference." Because that reasoning step takes extra
+00:05:22.560 compute, but gives uh gives you like the kind of like chain of thought process
+00:05:27.759 that we used to do manually now is built in into the LLM. and to go to step two
+00:05:33.039 which is planning. So you ask for a for a task and and uh the LLM is going to
+00:05:38.560 break down that task into subtask and for each of them uh will go and execute
+00:05:44.000 and in some cases will challenge the output from the previous uh from the previous step but it's going to be able
+00:05:49.919 to create uh multiple u uh subtask and goals and then it's going to go into
+00:05:56.800 into act which is uh step number three and act is maybe one of the most fascinating steps because uh it's going
+00:06:04.560 to allow you to um tap into execution of actions, you know. So, if you need to uh
+00:06:11.919 input something to a CRM or send an email all the way to sending, not just
+00:06:17.440 to write the copy or um whatever action it can be in in in for example in a
+00:06:23.120 system like workday can uh go and and uh interact with information for for a
+00:06:29.039 specific employee. There are so many different things that you can do in the act phase that is being opened up by uh
+00:06:34.800 protocols like MCP. And then reflection uh that's step number four. Reflection
+00:06:40.080 is really uh what is going to make agents really good because maybe at first they're a little bit raw but then
+00:06:46.240 with human input uh they will iterate and become better and better and better over time. Uh so that reflect uh step
+00:06:53.520 comes with like some technical implementations that you need to do that but you will be able to tap into the all
+00:06:58.639 the past history of interactions and learn for the from it and feed it back into the agent so next time it executes
+00:07:05.680 it does it better. So there's so many different terms and
+00:07:10.800 frameworks out there that people have heard about AI agents. What are the frameworks they should understand and
+00:07:14.000 No text
+00:07:16.000 how do they fit into these steps? Frameworks uh you mean developing development frameworks. Yeah, I think I
+00:07:21.840 would like to um classify them into two categories. there is like the coding uh frameworks and these coding frameworks
+00:07:28.639 are becoming simpler and simpler but there still you need to know in most of the cases uh Python um but you have uh
+00:07:35.919 frameworks like Langraph or Crew AI or Lama index or autogen um those are
+00:07:42.240 excellent frameworks open source uh widely popular and and uh with a lot of
+00:07:48.319 information documentation and and courses online you can go and and try them out but then you have on the flip
+00:07:54.319 side you of like um low code no code tools. One we we have at IBM that is
+00:07:59.360 very popular. It's called Langflow. Um I saw the new announcement from Lindy. There is um there is NA8 N. Yeah. Uh
+00:08:10.400 which is also getting uh very popular. Uh Stack AI uh from a fellow Spaniard
+00:08:17.120 here in in San Francisco as well also taking off. Flow-wise there are a lot of
+00:08:22.160 uh tools that help you build these agents in a in a very simple way. Still you need to understand the concepts but
+00:08:28.479 it helps a lot with development. Okay. So if you're not a very technical
+00:08:34.159 person you can use some of these noode tools lindy nadn make.com zap year you name it they're all becoming huge. Or if
+00:08:41.440 you're trying to develop a more robust internal system you're going to work with developers to build on top of a
+00:08:47.440 crew AI or a lane graph. Is that right? That's that's right. I think those um programming frameworks uh give you um
+00:08:56.399 needed control and flexibility that for very complex agentic implementations you
+00:09:01.519 you still need um and and those are those are um evolving quickly and I
+00:09:09.120 think also the exciting piece of that those are open source projects. You can go to the GitHub. uh I something I do uh
+00:09:15.680 sometimes is I go to the repos I see the the the PRs and the issues and the
+00:09:21.680 conversation in the repo itself and what people are asking and and uh anyone can contribute to those frameworks and make
+00:09:28.080 them even better. So there is there is a lot of fast innovation happening at that space because of the power of the
+00:09:33.920 community and the ecosystem. M you just mentioned building things and that's when I've really figured out you know
+00:09:40.320 what is rag versus what is fine-tuning versus what is the other elements of context engineering but for someone who
+00:09:46.480 hasn't gone through that what is rag useful for so rack is useful to give additional
+00:09:53.200 context to an LLM so if we uh step back for a second LLMs are trained with data
+00:09:59.920 uh at a point in time and uh obviously for most use cases uh you need to uh
+00:10:05.839 inject new updated data um in order to get the output you're looking for. In
+00:10:11.680 order to do that, the the most popular technique is called rack. You can use fine-tuning, but fine-tuning is not
+00:10:16.800 really to to inject new updated data that is changing all the time. Is fine-tuning. Actually, one of my most
+00:10:22.640 viral post is a guide on when to you should be doing fine-tuning versus rack. Um but uh Dra is basically uh great in
+00:10:31.839 order to connect directly to a to a knowledge base to a database and and um
+00:10:37.839 is is a space that is evolving extremely quickly. uh my first year uh in after
+00:10:45.120 the release of CHAGPT 90% of the use cases we were doing for enterprises were
+00:10:50.560 rack use cases um because it's one of the most powerful um methodologies you
+00:10:56.399 can tap into all these uh structured data but also unstructured data and and
+00:11:01.760 just fit it directly into an LLM. So that's I think it's a gold mine for most traditional companies that are sitting
+00:11:07.920 on on a lot of valuable data. Wow. 90%. So tell me a little bit more, how are enterprises using rag systems?
+00:11:14.720 What are employees using rag for? How does that help them build a better agent? Yeah. Uh think of rack as one of the
+00:11:21.440 core components of a of an agentic system. You can use rack just simply on a chatbot. But if you are taking it into
+00:11:27.920 an anentic uh application rack is basically the component that is going to
+00:11:33.120 uh let's say uh just stepping back we have think we have planning and most likely in the planning phase you will
+00:11:39.120 have a step of fetching some data from somewhere y um so that's that's a rack pipeline
+00:11:44.560 right there you know so um users and my customers are they're just
+00:11:52.959 looking at ways to tap into massive amounts of data instantly. Uh we've been
+00:11:58.399 very big on enterprise search, but most of that enterprise search has always been at the metadata level and this is
+00:12:06.160 taking it to a whole new level. This is allowing us to tap directly into the information on on those uh documents and
+00:12:13.920 structured data. So you can go tap give me like the the top use cases for for a
+00:12:20.240 specific uh for my top 10% customers and and then you can export directly from
+00:12:26.240 whatever reports or documents you have and get that directly into for example a product manager and then they can start
+00:12:32.800 making some assumptions on which feature they should be developing for example to go and accelerate development in certain
+00:12:38.800 areas. So um yeah there is uh some some say we're in the age of ideas. So with
+00:12:45.120 these new tools tools and new access to intelligence tab to um um enterprise
+00:12:50.959 data uh my my area is really on the enterprise side. Um that's where we see an explosion of new use cases.
+00:12:58.880 Are there particular technical frameworks or things people should know about when it comes to rag like
+00:12:59.000 No text
+00:13:04.160 different options to implement it? many many different options u and many different building blocks and ways to
+00:13:10.079 you you can do that. Um at the end of the day we are we are building these uh
+00:13:15.920 pipelines that they do a lot of different things. So uh seems like all the hype is on the LLMs. Uh but then you
+00:13:22.959 need you need good embeddings models. uh embedding uh model are those that are
+00:13:28.000 going to convert text into tokens and and those need to be really good and those need to be uh they they they can
+00:13:36.079 be good in different languages. They can be faster. They can be slower. Uh it depends on your on your application. You
+00:13:43.120 need vector databases. Uh you need ways to do like uh filtering, search,
+00:13:49.519 ranking. So all that uh and we have folks uh killing it out there with like
+00:13:55.360 data engineering uh education like Zach for example um because a lot of the
+00:14:01.600 problems in AI are are data engineering problems are connecting the LLMs to all these uh very complex data systems and
+00:14:08.399 in order to do that at scale is very very complex and for that you have uh a lot of different technologies if you are
+00:14:14.800 more on the uh AI application layer we have frameworks like line chain that we dimension and and so Lama index. Uh, and
+00:14:22.160 if you're more on the heavy data side, then you you you have things like Spark or Airflow or things like that.
+00:14:29.760 Okay. So, that's where all those terms fit in. And then there's this concept of vision rag. What does that help you do?
+00:14:37.279 Yeah. So, as we as we mentioned, um, rag extracts information um, uh, adds adds
+00:14:45.440 context into the LLM, right? And a lot of that information it's in the it's in
+00:14:50.800 the um it's an unstructured documents. So uh very rich PDFs with um very
+00:14:57.920 complex tables or charts with a lot of valuable information. So vision rack is taking the classic rack that is more
+00:15:04.399 just based on text and it's opening up to more multi multimodel uh scenarios
+00:15:10.000 and and is adding that component. uh there are some LLMs that are great for multimodality
+00:15:16.000 um nowadays uh and but then also you have like open source projects one from
+00:15:21.440 my colleagues from IBM called docklink which is available on GitHub is a free framework that you can go uh grab and
+00:15:28.240 it's going to be really good at um getting info from like um word documents, PDFs, PowerPoint, a set of
+00:15:35.519 different file formats and extract all that uh information visually and then
+00:15:40.800 you can fit it into a rack pipeline. M so that's what we call um that's what we call v vision rag that is also kind of
+00:15:48.000 like very popular and and is opening up new new use cases and I think vision rag is really
+00:15:53.680 important for charts right because there's so much rich data that lives in charts yeah yeah if you are in some industries
+00:15:59.839 uh like for example in healthcare that you need to read uh charts that come from from um very advanced equipment or
+00:16:07.440 you're in finance and you have a lot of charts for like the markets right um or
+00:16:13.040 tables as well. Tables uh many times come they are uh exported from from a
+00:16:18.240 spreadsheet and put together in a nice report on a PDF. Uh uh there is there is
+00:16:23.920 so much you can uh you need to do in order to understand what the chart is saying, what the table is saying, what
+00:16:30.160 are the conclusions. So um yeah that's why vision rack is becoming super critical and and uh there are a lot of
+00:16:36.720 different ways to to build that. uh I think the right combination here is to again build the right pipeline with the
+00:16:43.759 right components like dockling that I mentioned and then have very good multimodel models that are able to also
+00:16:49.759 understand um like um image as input for for the prompt.
+00:16:55.000 No text
+00:16:55.360 Today's episode is brought to you by the experimentation platform Chameleon. Nine out of 10 companies that see themselves
+00:17:01.279 as industry leaders and expect to grow this year say experimentation is critical to their business. But most
+00:17:07.199 companies still fail at it. Why? Because most experiments require too much developer involvement. Chameleon handles
+00:17:14.959 experimentation differently. It enables product and growth teams to create and test prototypes in minutes with
+00:17:20.559 prompt-based experimentation. You describe what you want. Chameleon builds a variation of your web page, lets you
+00:17:26.240 target a cohort of users, choose KPIs, and runs the experiment for you. Prompt-based experimentation makes what
+00:17:32.720 used to take days of developer time turn into minutes. Try prompt based experimentation on your own web apps.
+00:17:37.919 Visit chameleon.com/prompt to join the weight list. That's k a m e
+00:17:43.280 l e o n.com/prompt. Aie eval are one of the most important
+00:17:49.760 skills for PMs. And I know you know they matter. The question is, are you doing them right? Most teams are winging it
+00:17:56.640 with basic metrics and hoping for the best. Meanwhile, the teams that actually ship reliable AI, they've cracked the
+00:18:03.760 code on systematic evaluation. Today's episode is brought to you by the AIE evals for engineers and PMS course by
+00:18:11.600 HML Hussein and Shrea Shunker. This live Maven course will teach you the battle
+00:18:16.960 tested frameworks from HML and Shrea who are the engineers behind GitHub copilot's evaluation system and 25 plus
+00:18:24.400 production AI implementations. 4 weeks live instruction. Next cohort starts
+00:18:30.160 July 21st. Start shipping AI that actually works. Enroll at maven.com with
+00:18:35.679 my code ag-roduct-growth for over $800 off. That's ag-pr-g
+00:18:44.559 grt. What do most teams get wrong implementing rag systems?
+00:18:46.000 No text
+00:18:51.120 Um I think at the end of the day like a lot of the conversations that I have with customers are um frustrations on on
+00:18:59.120 accuracy. I think the in the in the consumer space a little a little bit of
+00:19:05.039 lack of accuracy is acceptable. Uh you can keep iterating and and uh it's not
+00:19:10.320 like a big uh um system is going to go down and affect millions of customers.
+00:19:15.840 But when we are talking about um for example putting uh a customer service uh
+00:19:21.440 chatbot that needs to connect to rack it needs to be very very accurate like 70% accuracy is not acceptable or we have
+00:19:27.679 use cases where there are the the human is not interacting with the with the system is like machine to machine. So
+00:19:34.799 and then you need to have like the right uh humans in the middle. So you need to build very trustworthy uh systems and
+00:19:42.640 what many people are getting frustrated is about the accuracy of the rack because they are just applying some
+00:19:47.679 vanilla uh out ofthe-shelf uh templates and implementations. So you you need to
+00:19:53.760 really build a strong practice to to properly evaluate the outputs and and at
+00:20:00.880 the end of the day it's really a a data problem. So, so yeah, you you need to build that
+00:20:06.480 practice to properly evaluate and and and understand uh what is an acceptable
+00:20:11.600 business accuracy for the use case and then um just keep iterating in the architecture in the different uh
+00:20:18.400 configurations that you need to do in your pipeline in order to build that accurately. So that's that's one. I
+00:20:24.320 think they are also uh underestimating the power of rack. Um because uh rack is
+00:20:30.720 providing uh like if Google was unbelievable to provide access to
+00:20:36.000 information for everyone. Uh at the end of the day they were provide they are providing like uh set of links and then
+00:20:42.480 you need to go and find the information. Rack is giving that superpower to every single company to build that at scale to
+00:20:49.520 tap into all the company's information uh for every single employee you know and and there is there is so much that
+00:20:56.480 can be done in that space um but to in order to do it right um it's it's it
+00:21:02.159 needs um very heavy uh engineering at this point. M.
+00:21:07.840 So if you're thinking about evals, that's usually an area that people talk
+00:21:14.159 about just in the context of the final output, but it sounds like you're saying evals are really important in the rag
+00:21:19.600 system itself. Yeah. And um yeah, I mean the the eels
+00:21:24.960 the rack space and the eels space um keeps evolving super super fast and
+00:21:31.760 uh there are there are there are new techniques new um new companies
+00:21:37.679 innovating in that space. Uh I think evaluic workflows should be almost um put at
+00:21:46.159 like every single step if you're really serious about developing something. um
+00:21:51.679 um a critical system you know and then you need to to evaluate u at different
+00:21:57.039 points before you put something uh into production. At the end of the day, eels is basically adding that no um
+00:22:04.159 human expertise to validate the output of what the AI system is giving you, you
+00:22:09.520 know. So if you have a system that has a lot of multiple steps and you are only checking the output at the at the end of
+00:22:15.520 the spectrum I think you're you are missing I think in the in like it's classic software development you will
+00:22:21.200 have evaluation in different points so yeah doesn't change that much in that front it's just more about the
+00:22:26.480 methodology on how you do it okay and how do you do good eval for a rag system
+00:22:31.840 there are again this is an area where there is u there there are a lot of papers talking about good techniques and
+00:22:38.320 then it's pretty cool that uh the frameworks and the open source community is coming with projects to help uh to
+00:22:46.559 help customers or users to to do that. At IBM, we have something called the EVAL studio that basically allows allows
+00:22:54.640 um the either the developer or the business user to uh do like proper
+00:23:00.320 evaluation of the outputs and and there are different ways. There are ways that
+00:23:05.600 mix um um there they mix synthetic data with like human uh checkins with like
+00:23:12.799 having a data set that has the ground truth. there there are different different tools and um yeah we we've
+00:23:19.760 been pushing one that is called evaluation studio which is GUI based because we also understand a lot of the
+00:23:25.600 use cases the knowledge and the expertise is in the in themes and the
+00:23:31.280 business users and they are they know very well what is good and bad and they need to be able to um uh assess the
+00:23:38.559 outputs of an AI system and and and this needs also it's not a one-off that is
+00:23:43.760 just you do it once and and uh to the next agent. These systems need to continuously be checked and improved.
+00:23:50.799 And that's the that's really the the power. Yeah, it's like any internal tool you're going to build. There's going to be ongoing maintenance and with an AI
+00:23:57.120 agent, a lot of it is in the eval phase. I think that's a really interesting insight that you want to equip yourmemes to be able
+00:24:04.960 to help you with those eval. You don't want to just be doing those in some engineering silo. Yeah, that said there
+00:24:11.919 there needs to be some framework on how you do that. Um, when we're talking to companies like my set of customers that
+00:24:18.960 are like hundreds of thousands of employees, you need to put some best practices and frameworks on how you do
+00:24:24.640 that at scale in a in a in a company. Um, so I think that's a little bit the
+00:24:30.400 the um the challenge in a lot of these companies. they see they they everyone
+00:24:36.480 has a lot of ideas and it's how they can experiment in a safe way and then also a
+00:24:43.120 customer told me recently they don't want to they don't want to um spend like
+00:24:48.240 $20,000 in compute to get a benefit of like 100 bucks you know uh so this false
+00:24:54.960 illusion of like I'm using AI I'm being more productive but what's happening underneath is like you're spending a lot
+00:25:00.240 on on execution either on the pipelines or on the AI I compute. So there needs
+00:25:06.880 to be like frameworks. Uh some are talking about like AI hubs or an AI office that tracks all the all those
+00:25:13.679 projects and uh you want to encourage innovation and use case creation, but then at the same time you need to have a
+00:25:20.480 a way to to assess those projects. Yeah. So you said most employees should
+00:25:25.520 be getting to the stage where they're managing 10 to 20 agents. How do you think through what agents you should be
+00:25:30.880 building? uh it depends on the business practice. Let's take for example uh you
+00:25:37.279 are sitting in marketing um if you see all the things that I'm sure you want to
+00:25:42.320 do and you have bottlenecks in in different areas right maybe you have a bottleneck in terms of like you cannot
+00:25:48.320 iterate fast enough on on the copy because you are relying on some third party agency and then the turnaround
+00:25:54.400 maybe is one week. So using agents maybe you can what it takes a week and a set
+00:26:00.159 of maybe meetings you can do it in in one or two days uh or even faster. Then
+00:26:05.840 maybe you have um you have challenges as well creating advanced uh um um just
+00:26:12.720 creative material, videos, images, charts that are impactful. Again, you can use AI for that. Or or you want to
+00:26:20.720 uh in in experiment with AB testing on the website, you can uh have AI to
+00:26:27.600 create different iterations of your website of your copy. So uh at the end of the day you I think everyone
+00:26:33.600 depending on their function will have different specialized agents that can give either recommendations or full uh
+00:26:39.840 automation on on execution of certain task and then you will be able to
+00:26:45.279 generate more more output. Mhm. So it's almost like managing a team under you and you need to figure out
+00:26:48.000 No text
+00:26:51.440 what are the right stages of human in the loop or human approval so that it doesn't just go out and misrepresent our
+00:26:58.240 brand or something when marketing but at the same time it is reducing the work we have to do it. Yeah, there is this
+00:27:04.640 concept of orchestration that everyone has been um talking a lot about uh this
+00:27:09.840 year um which is this need of orchestrating agents and a lot of our our job is going to be on the judgment
+00:27:17.120 of the output of uh some of those agents. Uh again I think we are far from that reality um 3 to 5 years not because
+00:27:25.200 of the state of technology. We are here in Silicon Valley and we see this AI first AI native companies that are built
+00:27:32.240 from day zero with this agentic mindset. But then when you when you you you talk
+00:27:38.320 to small traditional companies, there is a long journey in order to get there. Uh but uh yeah um orchestration of agents
+00:27:46.240 and um being able to quickly iterate on them and um orchestrate them and check
+00:27:53.360 the the outputs that they are generating are good because ultimately it's going to be the responsibility uh of of the
+00:28:00.640 humans. Um that's that that's a new um skill we all need to go and get used and
+00:28:06.640 learn. How do people get better at orchestration? Um I think I honestly I
+00:28:12.000 don't have a very clear answer. Um a lot of um companies they are working on AI
+00:28:18.399 literacy so learning. Um so I think uh getting hands-on with the technology is
+00:28:25.520 really important. Um if you use the early days on the internet you were on a
+00:28:30.960 on a console and then we moved into easier and easier interfaces. Right. So
+00:28:36.000 um I'm sure the technology it's being already democratized so it's going to be accessible for everyone but then at the
+00:28:41.840 end of the day it's good good education content like the one you are creating and and good courses and then um yeah
+00:28:49.200 target targeted for specific functions is going to be very critical. So if you're a product manager what AI
+00:28:55.600 agents should you build first? Um I think well first of all product
+00:29:01.279 management I think is also one of those functions that is changing. Uh I I lead a team of product managers and I think
+00:29:08.159 usually the ratio the standard ratio that I've seen in the industry which we don't always follow is like um a product
+00:29:15.679 manager for uh six to 10 developers. So you tend to have like product managers
+00:29:20.720 that are really focused on one specific area of your product. Um, so for
+00:29:26.240 example, in my in my AI platform, I have a PM that is really focused on on uh
+00:29:31.840 tuning techniques, another PM that is really focused on inference and serving models. And you have these PMs that are
+00:29:38.159 really focused on on certain areas. I think with AI agents, we are um we can
+00:29:44.720 get into a different ratio. Instead of 1 to 6 to 10, maybe we can get one every
+00:29:50.320 like 20 or 30 developers. Um because um and and and these PMS they might be able
+00:29:57.840 to cover multiple areas uh all at once because they will have uh they have
+00:30:02.960 agents that can do like competitive you can have a an agent that is doing competitive analysis. uh it's a very
+00:30:09.679 it's a crazy market like I mean the AI space is a crazy market every big vendor
+00:30:14.799 small startup YC there is so much action you cannot keep up you know so you can have an agent that is doing uh research
+00:30:22.080 another one that is building up reports for competitive that's those competitive analysis then need to be polished and
+00:30:28.559 they uh the sales people need to be equipped in order to have a good conversation uh in front of a customer
+00:30:34.640 defending the the your product versus the competition uh then you have a lot of um you need to prioritize all the
+00:30:41.039 user feedback. So um with with very powerful uh AI agents you can match you
+00:30:48.240 can have agents that can check your usage data from uh SAS metrics directly
+00:30:55.279 with maybe user feedback that comes from social media from other systems that you have to collect feedback NPS systems and
+00:31:01.840 and then you can start uh gathering more inputs to prioritize better your road
+00:31:07.279 map. Um and then when you prioritize the road map and you come with a new feature uh you need to write the PRD
+00:31:14.880 AI can do like 80 90% of the work and then um before even you validate and you
+00:31:21.360 prioritize the the feature uh that's where we can get into more details but you can even prototype it yeah
+00:31:27.360 you know and and then work with a select of users to get some some feedback so
+00:31:32.799 that's I think where we are going with um with product management completely and I think the final Step two, right?
+00:31:39.000 No text
+00:31:39.120 Today's episode is brought to you by Vant. As a founder, you're moving fast toward product market fit, your next
+00:31:45.039 round, or your first big enterprise deal. But with AI accelerating how quickly startups build and ship,
+00:31:50.640 security expectations are higher earlier than ever. Getting security and compliance right can unlock growth or
+00:31:56.399 stall it if you wait too long. With deep integrations and automated workflows built for fast-moving teams, Vanta gets
+00:32:02.880 you audit ready fast and keeps you secure with continuous monitoring as your models, infra, and customers
+00:32:09.039 evolve. Fast growing startups like Lingchain, Writer, and Cursor trust Advant to build a scalable foundation
+00:32:15.760 from the start. So go to vanta.com/acosash. That's v a nta.com/
+00:32:22.240 a kas to save $1,000 and join over 10,000 ambitious companies already
+00:32:28.480 scaling with Fanta. Today's episode is brought to you by Amplitude. Replays of mobile user
+00:32:34.880 engagement are critical to building better products and experiences, but many session replay tools don't capture
+00:32:41.279 the full picture. Some tools take screenshots every second, leading to choppy replays and high storage costs
+00:32:47.360 from enormous capture sizes. Others use wireframes, but key moments go missing, creating gaps in your understanding.
+00:32:54.000 Neither approach gives you a truly mobile experience. Amplitude does things differently. Their mobile replays
+00:32:59.519 capture the full experience. Every tap, every scroll, and every gesture with no lag and no performance hit, it's the
+00:33:06.080 most accurate way to understand mobile behavior. See the full story with Amplitude. Today's episode is brought to
+00:33:12.080 you by the AIPM certification on Maven run by Mcdad Jaffer who is a product
+00:33:17.200 leader at OpenAI. This is not your typical course. It's 8 weeks of live cohort-based learning with the leader at
+00:33:23.600 one of the top companies in tech. OpenAI just doesn't stop shipping and this is your chance to learn how. Run along with
+00:33:29.279 product faculty and Mo Ali. The course has a 4.9 rating with 133 reviews.
+00:33:34.559 Former students come from companies like OpenAI, Shopify, Stripe, Google, and Meta. The best part, your company can
+00:33:40.960 probably cover the cost. So, if you want to get $500 off, use my code a AA25
+00:33:47.519 and head to maven.com/rouct-faculty. That's mavn.com/pect-fac.
+00:33:57.000 No text
+00:33:57.039 Once you release it into production, it can monitor if all of the sudden users are getting some corner case you didn't
+00:34:03.840 realize. And then two or 3 weeks later it can tell you hey here's what the statistically significant results were.
+00:34:09.440 So it's like across every step of the PM life cycle. Absolutely. Absolutely. It's it's um
+00:34:16.239 it's a one of the most exciting um functions because as I mentioned before we are in the in this wall of ideas and
+00:34:23.760 I think PMS have the as part of the job the description is to bring some of these ideas to life. Yeah. You know, and
+00:34:31.839 if you you you work in in product management, you know, like it's been
+00:34:37.119 always uh kind of like a frustration to turn ideas into not features but
+00:34:42.239 sometimes even validating the idea, right? You need to work with design, maybe get them all up, have user
+00:34:48.879 feedback and then work with engineering and engineering is overwhelmed with uh production tickets on support and things
+00:34:56.639 that need to be fixed and new feature development. So um yeah it's it's that's
+00:35:01.839 why I think also uh PMs all the PMs that I usually hire are really good
+00:35:07.760 technically and now with AI they will be able to take it to like three four uh
+00:35:13.119 steps further uh by themselves. So you recently commented on this idea
+00:35:18.800 of writing first versus prototype first cultures. Talk to me a little bit more about what the future of the role looks
+00:35:25.200 like the future of the PRD in this world. Um yeah, I'll tell you a story, a personal story about that. Um and I
+00:35:32.079 think that that build u a lot of success in my career. Uh that's more than 10 years ago, but uh I I'm from Spain. I
+00:35:39.839 moved to the US. My English was very very rough. And we had this kind of like big meeting with a lot of big executives
+00:35:46.960 how to reimagine how the next machine learning platform is going to be. And at that time I I still remember I had the
+00:35:54.079 meeting in two days and I was really struggling to articulate all the ideas that I have. So I I said myself I'm
+00:36:00.560 going to build a prototype and and to my surprise in that meeting everyone was
+00:36:05.920 just talking and showing slides and I was the only one that was showing I was
+00:36:11.040 showing the product. You can touch it. You could uh see it. It was not nothing close to production. And it was all kind
+00:36:16.800 of like um uh fake but giving the ideas and the art of the possible and and
+00:36:22.960 guess what I I I got to lead the project that became the kind of like the default and the path forward. So I think that's
+00:36:29.119 what is happening right now. Before I had to just get hands-on start coding and and and do a lot of the work. I
+00:36:35.520 could have done that now in maybe like three or or four hours you know. So um
+00:36:41.760 now with all the tools I think every single PM should have access to to um B
+00:36:48.400 coding tools uh different different options out there in the market to just
+00:36:54.000 kind of like skip ahead and show some of those ideas directly into working
+00:36:59.200 prototypes and and that also helps a lot with with communication. The teams I
+00:37:04.400 work as well they are um they are worldwide. So there's also um language
+00:37:11.119 barriers. Uh a lot of the work in big corporations is all about communication and that communication is either in
+00:37:17.599 meetings or written or in GitHub uh repos you know. So a lot of things are
+00:37:22.880 missed in translation. So um I'm big fan of showing and and skipping a lot and
+00:37:29.839 even if you write the most beautiful detailed PRD still uh a lot of information is is lost uh in translation
+00:37:37.839 and just there is nothing that speaks better than just a working working prototype.
+00:37:43.000 No text
+00:37:43.760 There is some worry out there that we're going to start to get into a more feature factory solutions focused world.
+00:37:50.320 we're not going to heavily investigate the problem space. If we just jump into AI prototypes, what's the right step,
+00:37:58.320 the right life cycles to make sure that you are investigating the problem space, but you're also taking advantage of this
+00:38:03.520 new prototyping technology. Yeah, that's that's a very valid concern. I I spend a lot of time with customers. I think that's and again,
+00:38:11.440 that's also part of how I built my career. Like my first two years I was I
+00:38:17.599 was traveling every single week to visit customers. I spent two years traveling.
+00:38:22.640 I had no no wife, no kids. So it was free to meet a lot of customers all over
+00:38:28.720 the world and it was it was unbelievable like not only network but just going deep into what they were doing trying to
+00:38:34.880 figure out the problems and I didn't have LM but I I I kind of like started
+00:38:41.200 framing my own ideas hypothesis and checking what was going on in the market to build solutions. So I think you
+00:38:47.920 always need to start customer first and um yeah PMS in my opinion they need to
+00:38:53.040 spend a lot of time talking to to customers and get going deep not at a high level but just really trying to
+00:38:59.520 understand what are what are their um challenges and then figure out how your product can solve. All right so let's zoom back out of
+00:39:06.240 product management for a second and just talk about general tech workers. you've encouraged people to learn Python, get
+00:39:12.560 technical. Even you've asked leadership to get more technical in the AI era. Why
+00:39:17.920 is that so important? Yeah. And uh I I think everyone should
+00:39:24.000 have technical literacy in in this day and age. U always I think you are completely going to miss out on the
+00:39:29.920 opportunities of AI. Um the one that articulates this very well is uh Aaron
+00:39:36.320 Levy uh the box founder and CEO. He he says you can you have two ways two ways
+00:39:42.079 to approach AI either as a cost-savings tool that's completely fine or or you you can
+00:39:50.640 uh just go do way more with AI you know so in order to do way and I think that's
+00:39:56.640 the right approach I think that's how uh companies will will grow will expand work is going to be more fun because
+00:40:02.720 we're going to be able to accomplish uh new use cases and new new work in order to do that you need to understand the
+00:40:08.560 art of the possible of AI and there is no there is no document, white paper,
+00:40:14.560 LinkedIn post, video that is going to teach you the art of the possible unless you actually try the technology. So um
+00:40:22.880 luckily you uh I mean if you learn how to code in Python or do the basics in Python that's that's completely cool.
+00:40:30.079 Luckily the technology is getting democratized so you can still touch the technology uh and and not code um at all
+00:40:37.040 but you need to understand the concepts and and um a lot of the a lot of the
+00:40:44.320 leaders in the space they have a lot of ideas on things that they should be doing and they can do and and they need
+00:40:50.720 to understand how the technology uh bridges that gap. So yeah I'm I'm I'm I'm spending a lot of time learning
+00:40:56.800 myself. Uh many people ask me how I'm so up to date or I write about this content
+00:41:03.040 uh so often. It's just I mean number one is I'm obsessed with it. So it happen it
+00:41:08.800 comes to me naturally. So every time there is something new I just jump and I try it out um in the in the evenings
+00:41:15.200 usually. But then um and then I start to form my own opinions based on my u
+00:41:20.480 professional experience. Mhm. So it's about jumping in using the
+00:41:22.000 No text
+00:41:25.599 tools. What's like a good road map if you had to give somebody if they're going from zero to one to ramp
+00:41:32.400 up on all these tools like which tools should they try first in what order? Yeah, I think first just understanding
+00:41:38.880 the the the concepts and then tools um I
+00:41:43.920 think everyone should just develop one AI agent. Um and and there there are a
+00:41:50.079 lot of different tools you can do that with u no code flow builder. There are
+00:41:55.200 many out there. Um I I I was trying I was actually trying yesterday the new Lindy Yeah. AI.
+00:42:01.440 Very very very impressive. At IBM we have a tool called Langflow as well which is like low code flow builder
+00:42:08.560 experience as well. Um at the end of the day if you see each of those tools they still require you to understand the
+00:42:15.040 concept of AI. So I always recommend start with the concepts and understand what is an LLM, understand what is
+00:42:20.400 reasoning, understand what is rack and and and some of those things and then
+00:42:25.839 and then use any of those tools that give you like the building blocks and just think about one one use case that
+00:42:31.680 you have um in your own personal um um job or life and then try to solve it,
+00:42:37.680 you know, and and try any of those tools. And then if you want to go deeper and deeper
+00:42:44.160 um I think it depends on the on the on the role. If you are into leadership I think there is a lot of education about
+00:42:50.079 um how you inject AI into an organization and change management and and and so on. If you are more on on a
+00:42:57.520 practitioner um practice in in in different domains uh I think you will
+00:43:03.040 have a lot of um aentic solutions that can help you speed up your your work. So
+00:43:08.720 there are a lot of different options. Okay. So build with a noode tool. Then what's the next step? Do you go into
+00:43:14.960 like a cursor or something like that? Do you learn to program? Where should people go after? Yeah, like pro programming. I I think
+00:43:21.920 also by coding is is a is a big one. Um because it I think you need to understand the different the different
+00:43:28.160 levels. I I I don't expect everyone right now to just create something and
+00:43:30.000 No text
+00:43:33.839 put it into production in an enterprise uh setup. I think that's u that that
+00:43:40.400 needs to be a little bit somehow controlled um depending on on on data
+00:43:45.520 access and tool access but yeah is start with uh developing some some agents um
+00:43:51.839 try bip coding um if you are if you are um curious try different things that are
+00:43:59.200 more advanced using Python depending on your level of expertise there um I mentioned earlier deep learning AI
+00:44:06.720 amazing short courses and uh yeah it's it's interesting because you you can if
+00:44:13.359 you want to for example hey I heard about rack every day I see it on my timeline every single time I log into
+00:44:20.079 LinkedIn or X just do a quick course on rack you will really understand that it takes like 3 four hours and then you can
+00:44:25.839 understand hey uh basically my entire organization can access all the
+00:44:31.520 information if we build these rack pipelines really good so maybe something we should invest and you you can do it
+00:44:37.200 in house, you can do it through a vendor, you can have like a third party help you build those. Uh but you need to
+00:44:43.839 understand those concepts because again people in the business need have they have the ideas and the use cases in in
+00:44:50.800 in their heads, you know. Let's shift focus to open source AI. IBM
+00:44:57.359 and you in particular have had a lot of focus on open-source AI. Can open source really win? It feels like it's always a
+00:45:03.599 cycle behind closed source. Yeah, I think um we need to understanding in the
+00:45:09.119 enterprise context that I'm coming from and I think in that enterprise context open source I would say always wins.
+00:45:15.680 Oh yeah. I think um it's if if we are um
+00:45:22.079 like let's take the latest OpenAI model right why everyone is so excited especially in the enterprise first the
+00:45:28.560 license it's unbelievable it's an Apache 2 license which is really good um then
+00:45:34.079 it's a very good reasoning model like we we I think we've been lacking some very
+00:45:39.599 good reasoning models uh in the open source space and then and then you can
+00:45:45.040 just take them and deploy them anywhere. So you don't have to rely on a third party API call where you most likely
+00:45:52.960 most for most of my customers they cannot just send a lot of uh confidential information there or they
+00:45:58.640 cannot connect it with their own tools. So right now you can take that model make your own deploy it anywhere in your
+00:46:04.800 own infrastructure. A lot of customers are still running on their own infrastructure. they are buying they're creating their own um AI factories with
+00:46:12.079 different um AI accelerator providers like Nvidia AMD uh so that you can
+00:46:18.800 deploy it on your own machine so open source provides a lot of a lot of control um for enterprises which is a
+00:46:26.000 great thing then I think the pace of innovation of the community even though sometimes is a little bit slow at the
+00:46:31.359 beginning at the end of the day in the long term it shows up and I I think we've been a little bit through a cycle
+00:46:37.440 I think last year on we were we could see open source models getting closer
+00:46:42.720 and closer to closed source and then I think this year it's been a little bit different Google with Gemini and OpenAI
+00:46:49.359 with GPD5 they they show that they are still ahead but you will see again the open source
+00:46:54.880 community rallying behind and and and pushing that forward and lastly is developer ecosystems uh what we were
+00:47:01.760 talking at the beginning on all these different frameworks that actually enable companies to develop
+00:47:08.160 applications. Um they are built on open source as well and they are deployed on open source systems uh like Kubernetes
+00:47:15.440 and BLM. BLM is a um is the basically the the engine to run models you know.
+00:47:22.640 So yeah I think on the there it's not just the LLM itself it's the entire um
+00:47:28.880 AI ecosystem. PyTorch is another great example like everyone is building on PyTorch which is also open source. So
+00:47:36.560 it's it's I'm very passionate about open source and I think in the long term it always wins. What's PyTorch for people who don't
+00:47:42.160 know? PyTorch is basically the the framework that allows uh you to uh create very
+00:47:48.319 complex deep learning algorith algorithms and and run them. Yeah. And just about all of the closed and
+00:47:55.280 open source foundation companies are building with PyTorch, right? Pretty much all of them. And that's a project that came out of Meta. Um and uh
+00:48:04.560 yeah it's it's open governance and everyone is contributing to to it and it's been used by every single major AI
+00:48:11.760 lab in in the market. So you've been in AI for 16 years. What have they been the biggest open source releases over time?
+00:48:17.760 Um it's been a while a wild journey um because when we talk about uh open
+00:48:24.079 source a lot of the conversation right now is with LLMs. So um I think um if we
+00:48:31.520 if we just focus for an open source for a moment um I think Mistral did a
+00:48:38.800 massive things when they came into the market. They they were also I think the first to provide a mixture of experts
+00:48:45.119 open-source model um also they did it they did it in a very funny way with a torrent link that you have to get a
+00:48:52.720 little bit your way to go download. And then um we had Llama building a fantastic ecosystem around around open
+00:48:59.839 source models. IBM we open source our models I can speak to that. And then uh
+00:49:05.359 now open AAI and others. So there is innovation in the model space. If you go check hugging phase which is kind of
+00:49:11.440 like the repository of all these open source models that CLM and the team is building like there are hundreds of
+00:49:17.440 thousands of open source models. Then there is data as well also available on hing phase. There are a lot of data sets
+00:49:23.680 data sets for many different things for pre-training for post- training for alignment. So these are also components
+00:49:30.880 um major PyTorch massive uh tensorflow uh look promising. Finally um PyTorch
+00:49:38.720 kind of took over. Um um there is always kind of like at the beginning you don't know which one is going to win and then
+00:49:45.119 you let the community and the ecosystem uh um move that forward and and mo in
+00:49:50.800 most of the cases there are very technical decisions that are very critical or users user simplicity. Um
+00:49:57.920 and then a lot of the conversation as well is happening on um potential alternatives to CUDA uh that provides a
+00:50:05.760 lot of control for Nvidia. So uh it's a it's a very exciting uh ecosystem and
+00:50:11.520 yeah it's not stopping and it's operating at every layer really every layer in in every layer of the AI
+00:50:17.599 stack you have like three or four projects and new incumbents coming with new alternatives and and I think the
+00:50:24.400 beautiful thing about open source is let the best win you know y briefly mentioned pre-training
+00:50:30.880 post-raining and alignment for people who don't understand that those are the steps in model building what what's one
+00:50:37.280 deeper what's happening in each of those. Yeah. And and for 99.999%
+00:50:43.760 of the people they won't they they don't really have to touch that. uh this is really done by the frontier AI labs that
+00:50:51.920 they train the models and basically in pre-training is when you basically gather all that uh clean data set and
+00:50:59.520 you and you train this what you use to train your your model and then uh you
+00:51:04.800 have the post- training phase and the alignment to to make sure it it performs uh properly. So these are uh different
+00:51:11.520 data sets that you use for that. uh obviously we're running out of data. So then you have new methods to create
+00:51:17.920 synthetic data high quality synthetic data which is synthetic data is data generated by AI algorithms and then
+00:51:24.880 supervised by humans to make sure that is high quality and and yeah like all that process uh is
+00:51:32.880 what is used by all these frontier labs to train um to train all these magic LLMs that we're using.
+00:51:39.000 No text
+00:51:39.520 So let's get to IBM. How is IBM going to make big waves in the AI space? Yeah, so um I joined IBM when we
+00:51:47.599 announced IBM Watson, you know, and it's been a wild uh decade uh with a lot of lessons learned learn and and uh also
+00:51:55.839 things that got we got right and things that we got wrong. Um right now the one
+00:52:01.839 of the things I'm very bullish is about providing customers uh flexibility to tap into to deploy AI anywhere and to
+00:52:08.720 tap into any AI um engine they want. So so what what does that mean? That means
+00:52:15.599 um um our customers uh they they sit on a lot of data as I mentioned before.
+00:52:20.960 It's a gold mine of data. Uh they need to execute the that AI close to that data. uh cost per token is extremely
+00:52:28.400 important you know so uh I think we are one of the only providers that provide all this flexibility to deploy the AI
+00:52:35.920 very close to in the infrastructure they they want whether is a hyperscaler whether is on prem on a private cloud uh
+00:52:42.400 setup or a combination of all of those so that's number one uh then we've been
+00:52:47.920 developing also uh our own AI uh models is a family of models called granite and
+00:52:54.000 then uh providing but Our customers they want everything. I mean the customer I was yesterday and it's a trend I see
+00:53:00.800 with every single customer they have all the options you know. So okay so how you provide and
+00:53:06.480 govern access to all these uh AI engines no matter where they run. Uh so you make
+00:53:12.319 sure you have some way to understand the the overall cost the access control and
+00:53:17.920 and things like that. And then we provide a lot of um tooling on top to
+00:53:23.280 make sure uh we give productivity to developers and and at the end of the day
+00:53:28.559 this these systems are built for scale massive scale. So we are working on different projects to uh help scale
+00:53:35.839 inference throughout multiple clusters in different environments and and and
+00:53:41.359 then um an area that I've been responsible as well is uh the governance piece and the governance piece is a is a
+00:53:49.280 u one that many people are thinking uh after the fact and it should be thought
+00:53:54.400 before especially in in an enterprise setup. So uh I'm sure you heard about a lot of the AI regulation that is coming
+00:54:00.880 to the market and that regulation is being updated and is uh different in at
+00:54:06.640 sometimes by industry by state by country and so you need to have like an inventory of use cases at different
+00:54:13.920 stages and for those that are in production they need to be compliant uh to a certain regulation. So um we we
+00:54:20.559 have um very good tools in order to to do that at scale. Why is the granite
+00:54:25.599 model important? I think that the granite model has two I would say maybe uh the research team
+00:54:31.839 will disagree with me there are more but I think they has we have two major components. One is um uh cost per token.
+00:54:40.160 So these are very small models. Um one of one of the most popular ones is a two
+00:54:46.160 billion model that performs really really well. So if you if you see what opening I released uh last week the
+00:54:52.160 smallest one is 20 billion. Okay. Um these are different kinds of models like that that model is open eye model
+00:54:58.240 is very good at reasoning. Uh but like for certain use cases what we see is uh
+00:55:03.520 cost per token is extremely critical and for some uh use cases you don't need
+00:55:09.119 generic models that know how to do everything. In enterprise setups you need models that do one thing and do it
+00:55:15.359 really really well. So um these very small models are extremely good. they
+00:55:20.559 are very cheap and they run in in hardware um that in some cases even
+00:55:25.599 commodity hardware. And then um the second thing I I will add two more. The second thing is easy to customize. So
+00:55:32.160 we're talking about uh tuning or drag or things like that. The larger the model,
+00:55:38.160 the more complex every single thing you're trying to do is. So if it's a very small model, it's easier to tweak
+00:55:44.160 it to tune it to to change the weights and and to uh embed it into into
+00:55:49.280 different um uh customization setups. And then the last one is um which is it
+00:55:56.079 was talked a lot at the beginning of this AI uh um craziness that we have
+00:56:01.920 going on. It was about the copyright of the data. uh for most of the models that we use today we have no idea which data
+00:56:09.520 was used to train um all our data is actually is even disclosed on the white paper uh our legal teams they went
+00:56:16.400 through it is uh has the proper copyrights and and so on so uh and we provide that information very
+00:56:22.319 transparently to our customers so that that build a level of comfort for some
+00:56:27.359 specific use cases in certain industries that has been that has been really good
+00:56:33.359 so the AI talent wars have gotten insane. People have heard about $1 billion for four years at Meta for some
+00:56:40.400 of the highest paid AI researchers, yet you're still saying that AI talent may still be underpaid.
+00:56:47.119 What's your take on this? Like what's going on with these AI talent wars? Why is AI talent underpaid?
+00:56:52.240 I I got in trouble for that that post, but I think um I think there are two
+00:56:58.319 things here. One is like kind of like the ethical piece. It seems completely unethical that someone is making that
+00:57:04.000 absurd amount of money. But then you need to put things also into context, right? We're in a a capital allocation
+00:57:11.280 market and we're talking about talent that is very unique. I would say maybe there are like 200 of those um folks uh
+00:57:18.480 worldwide. Yeah. And those folks are the ones that are making they are actually using all these
+00:57:24.319 capex being uh being spent by the biggest and strongest companies in the
+00:57:30.000 world. So when you have a uh one of those companies spending billions on AI
+00:57:36.400 clusters and they are even talking about building nuclear uh nuclear plans to
+00:57:41.920 power those those AI clusters and those clusters those clusters are they are for
+00:57:49.359 training new models um tuning new models serving new models. So you need the
+00:57:54.559 right talent um to leverage that and and literally like one architecture decision
+00:58:01.760 can can um use capacity on those clusters for weeks and month. So if you
+00:58:09.040 put the numbers into context that's massive. So that's number one like those those folks are really capital
+00:58:15.520 allocators right now. Um not only just employees. Yeah. And and second one is I mean you
+00:58:21.920 need to see the state of the market like a lot of these people they are either in they are founders or or first employees
+00:58:30.319 of um very wellunded uh companies. So they have like very sweet equities uh at
+00:58:36.960 extremely high valuations. Right? So if you see what they are what what is their opportunity u maybe um they they have
+00:58:45.839 two or 300 million on equity in some in some company. So if you want to
+00:58:53.040 put a very sweet package like the capital motion and the state of
+00:59:00.000 the market and where these technical folks that they are like founders of
+00:59:05.119 some of the most promising companies in the world. Well, I just love to see the nerds get paid like athletes. this. I mean, I I
+00:59:11.920 heard there are AI um agents, but not agents in the like NBA agent for players
+00:59:19.200 that are helping you negotiate those uh those contracts and things like it's just it's it's wild. It's the it's the
+00:59:26.000 nerds are are taking over. Revenge of the nerds. Amazing. Um so, you have an amazing career story.
+00:59:32.000 No text
+00:59:34.079 You rose from intern to VP of AI. a lot of people would want to follow your
+00:59:39.119 trajectory. Of course, you know, you did good work, you made good connections, but are there
+00:59:44.720 things about the way you work or the way you manage your career that really helped you propel so quickly?
+00:59:50.880 Yeah, I think this is one of those that be careful what you dream because it might become true. Uh I was I was a kid
+00:59:57.440 and I was just obsessed with being here in Silicon Valley watching all the keynotes the action happening with Apple
+01:00:04.720 and all Oracle and all these companies and I really really really wanted to to
+01:00:09.760 be here. So every single thing I did either very intentionally or intentionally took me here.
+01:00:16.640 Um and for some things I was like very very aggressive trying to get there. I I
+01:00:22.000 when I was in Europe, I wanted to be in a US company to get the visas to to get here and get sponsored
+01:00:28.319 and and so on. Um so that was one factor. I think the other factor is is I um there is a
+01:00:36.720 component of of luck, you know, uh I joined IBM when IBM Watson was announced
+01:00:42.480 and then I've been very consistent on that AI path. Even on these AI winters that we had in between, I've been always
+01:00:48.559 working in in AI and machine learning and and yeah like we are now in this
+01:00:54.079 stage where AI is the biggest thing in in the world. uh so there is that luck
+01:00:59.599 factor but I had a good intuition right I saw the promise of the technology and
+01:01:04.640 and I was very connected with all the developments that were happening with uh for example with Nvidia and AlexNet and
+01:01:11.920 the promise of all this technology but we didn't expect this to happen so so
+01:01:17.119 quick and then and then is also more about managing kind of like the
+01:01:22.880 corporate uh ladder something I always recommend and is network is very important um and network and add value
+01:01:31.200 and just um be humble and uh problem problem solving. So yeah, I've been
+01:01:37.440 always kind of um lucky to be in these very hot projects and then part of my nature. I'm very impatient. I want to
+01:01:43.839 build things very quick and um that fits the narrative in corporate America that
+01:01:49.359 they want people want to see results quickly and and they want to see innovation. So um yeah, I was always
+01:01:55.920 with this mindset of building and showing not telling and and and then
+01:02:01.839 I've been lucky to surround myself with unbelievable colleagues um that made
+01:02:06.960 things uh happen very fast. So that's that's been kind of like my story. I started I'm from Spain. I started
+01:02:13.760 working at IBM in Belgium in France. I moved to Chicago and then I've been here in the Bay Area for 10 years.
+01:02:19.280 Wow. very intentional journey to get to Silicon Valley and then
+01:02:25.040 seize the opportunity stay grinding. A lot of people they come to Valley, they see the gray weather, they leave after 3
+01:02:30.960 years. You stuck it out and that's really an incredible story. Another incredible story that you have
+01:02:36.000 No text
+01:02:36.640 is you I believe June 2023 you shared was when you started your content posting
+01:02:42.640 journey. We're talking in August 2025. You have nearly 200,000 followers. I think it's at like 194,000 today, right?
+01:02:48.720 By the time this episode published, it'll be 200,000. How, and you've written about this a little bit. You use
+01:02:55.040 AI in your content creation process. How can other people use AI in their content
+01:03:00.160 creation process to grow like you did? Yeah. Um, first, why I started doing it,
+01:03:06.079 I I think I always um wanted to be a better communicator, and I think if you
+01:03:11.839 want to get good at something, you just need to flex that muscle. Yeah. So um and because of the work I
+01:03:18.799 was doing every time I was posting something either at the time on blogs on Medium or sometimes on LinkedIn I have
+01:03:25.599 posts from like 5 years ago that were getting like thousands of views which is rare and they were they were resonating.
+01:03:32.720 So then I was like, "Okay, I'm gonna try to put consistency and a framework." And it's something I should have been doing
+01:03:38.480 before. And and then I I put a system just to collect ideas
+01:03:44.319 and and and and just write every single day. Like I have a post every day on on LinkedIn at uh
+01:03:52.240 7:00 a.m. Pacific. No, 4:00 a.m. Pacific, 7:00 a.m. Eastern. Oh. Um, so kind of like when when the US
+01:03:59.119 is waking up and it's still working day in Europe, uh, you you get an update from me. Um, I will say so though that
+01:04:06.640 um I was using AI a lot more before. I barely use it these days.
+01:04:11.920 Oh, and I think that's also part of the differentiation on on good content. So
+01:04:17.760 um and I have posts where I had like like two years ago I had agents filled with um baby baby AGI and things like
+01:04:25.440 that. And I think at that time I was always kind of like concerned that I didn't have enough um enough um ideas.
+01:04:34.960 So I had agents to do like research and they will just scroll YouTube x or uh
+01:04:41.440 different sources and give me like what is the content that is getting more engagement and then my my content was
+01:04:47.599 really optimized to go viral. Um which was good that that helped grow a lot.
+01:04:53.520 Um, right now my content is more targeted to the people I want to talk to
+01:04:59.760 and the audience I'm going after and and that's helping as well with my my uh
+01:05:06.079 connections and and professional experience. So when I sit in front of a customer, most of like 90% of the time
+01:05:11.599 they already follow me, they know my content, they have questions about it. So um and and that help also inspired um
+01:05:20.079 um other people at IBM to help promote uh IBM technology. So um I I I was very
+01:05:27.280 heavy on AI. I use it a little bit less these days. Um just because I think uh um just
+01:05:34.319 trying to um spend more time thinking and that's a way to differentiate otherwise the content is also getting
+01:05:41.039 democratized these days. Yeah, it is right. I also had a phase like two years ago when I was using AI
+01:05:46.880 and I felt like it was giving me an edge. Now I don't use it at all because it it ends up leading you down the path
+01:05:53.760 of creating content like everybody else and that's the content that doesn't work. Yeah. And and and
+01:06:00.319 I think maybe where I use it is more on the ideation. Okay. So um like many people ask me how
+01:06:08.319 do you have time to write so much and it I think is if I didn't write I my
+01:06:14.720 thoughts wouldn't be structured and in order and I need that for my my job. So
+01:06:20.079 um I was flying yesterday uh back from a customer visit. It was like a 24-hour
+01:06:25.760 visit to a customer. in the flight back, I I just had so much information that I
+01:06:32.160 was kind of like structuring it and writing my thoughts um kind of like old school on pen and paper on a notebook
+01:06:39.280 and and I will use AI to kind of expand on on those ideas, help me structure them, but then uh write write something
+01:06:46.480 and I usually have my own routine uh every day after kids go to sleep, just spend some time like writing and then
+01:06:53.119 the more you do it, the faster you do it as well. Yeah. Um, at first maybe it will take
+01:06:58.480 you like 45 minutes to write something. Now it takes me maybe like five, seven minutes, you know. Oh wow. Because I I I
+01:07:04.319 don't have like this uh paralysis when I have to write. I already know what I'm going to be talking about and more or
+01:07:10.880 less um I learn about formatting content and so on. So yeah, it's one of those
+01:07:17.119 things that you just need to do it uh and regularly and then also track metrics as well if you really care about
+01:07:23.039 growth. Yeah. What works and what doesn't. Oh yeah. I actually look back at what the days you got more followers, the posts that got
+01:07:29.440 more likes. Yeah. But I'm also not super obsessed with that because um a lot of the content that gets a lot of u likes and
+01:07:36.400 stuff is just reporting the news. Yeah. And I think I can bring additional value on top just reporting what's happening
+01:07:43.280 in the market and there are many people that are doing that very well. So it's more about okay I'm I'm in this spot
+01:07:48.799 where I'm developing enterprise AI software and I talk to AI implementation
+01:07:54.079 in in enterprises. So uh that's where I'm I'm trying to spend more time. So I
+01:07:59.280 I rather get maybe like two 200 or 300 likes but the the people are that are
+01:08:04.960 engaging are like executives in some of the most important companies in the world or aspiring executives.
+01:08:11.599 um than than just reporting about the latest model in the market and getting like 3,000 likes.
+01:08:17.439 Yeah, that's more valuable. What an ending to the podcast. Arand,
+01:08:18.000 No text
+01:08:22.719 thank you. This was I think your first deep long form podcast. Cannot wait to share this with the world. Really
+01:08:28.560 enjoyed it. Uh thank you for inviting me and looking forward for more. Thank you. All right. So, if you want to learn more about how to shift to this way of
+01:08:34.880 working, check out our full conversation on Apple or Spotify podcasts. And if you want the actual documents that we
+01:08:41.759 showed, the tools and frameworks and public links, be sure to check out my newsletter post with all of the details.
+01:08:49.040 Finally, thank you so much for watching. It would really mean a lot if you could make sure you are subscribed on YouTube,
+01:08:56.399 following on Apple or Spotify podcasts, and leave us a review on those platforms. that really helps grow the
+01:09:03.679 podcast and support our work so that we can do bigger and better productions.
+01:09:09.120 I'll see you in the next one.
