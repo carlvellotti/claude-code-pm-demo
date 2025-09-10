@@ -1,125 +1,75 @@
-# Product Planning Meeting
-**Date:** January 15, 2025  
-**Attendees:** Sarah (PM), Marcus (Eng Lead), Jessica (Design), David (Sales), Lisa (Customer Success)  
-**Duration:** 60 minutes
+Sarah: Alright everyone lets review our Q1 priorities based on customer feedback. Lisa want to start with what youre hearing?
 
-## Meeting Notes
+Lisa: Sure. The overwhelming theme is onboarding complexity. Im spending three to four hours per new customer just getting them to their first workflow. Customers keep asking for templates or some kind of quick start.
 
-**Sarah:** Alright everyone, let's review our Q1 priorities based on customer feedback. Lisa, want to start with what you're hearing?
+David: Im losing deals because of this. Prospects see the demo and love it but when they hear about the forty five day implementation timeline they balk. CompetitorX is promising one week implementations with their templates.
 
-**Lisa:** Sure. The overwhelming theme is onboarding complexity. I'm spending 3-4 hours per new customer just getting them to their first workflow. Customers keep asking for templates or some kind of quick start.
+Marcus: From an engineering perspective building a template system isnt trivial. We need versioning customization capabilities validation. Id estimate two to three sprints minimum.
 
-**David:** I'm losing deals because of this. Prospects see the demo and love it, but when they hear about the 45-day implementation timeline, they balk. CompetitorX is promising 1-week implementations with their templates.
+Jessica: Ive actually been sketching some ideas. What if we start simple just five templates for the most common use cases? We could launch MVP in one sprint.
 
-**Marcus:** From an engineering perspective, building a template system isn't trivial. We need versioning, customization capabilities, validation. I'd estimate 2-3 sprints minimum.
+Sarah: I like that approach. Lisa what would your top five templates be?
 
-**Jessica:** I've actually been sketching some ideas. What if we start simple - just 5 templates for the most common use cases? We could launch MVP in one sprint.
+Lisa: Based on support data. Employee onboarding. Expense approvals. Customer feedback collection. Inventory management. Document approvals. These cover about sixty percent of initial workflows created.
 
-**Sarah:** I like that approach. Lisa, what would your top 5 templates be?
+Marcus: If we limit to those five and keep customization basic we could do it in one sprint. But no fancy features just pre populated workflows they can modify.
 
-**Lisa:** Based on support data:
-1. Employee onboarding
-2. Expense approvals  
-3. Customer feedback collection
-4. Inventory management
-5. Document approvals
+Sarah: Lets do it. Marcus can your team handle that in Sprint twenty three?
 
-These cover about 60% of initial workflows created.
+Marcus: If Jessica gets us designs by end of this week yes.
 
-**Marcus:** If we limit to those 5, and keep customization basic, we could do it in one sprint. But no fancy features - just pre-populated workflows they can modify.
+Jessica: Ill have wireframes by Thursday full designs by Monday.
 
-**Sarah:** Let's do it. Marcus, can your team handle that in Sprint 23?
+David: This would be huge for sales. Can we also create a template marketplace eventually? Let customers share their workflows?
 
-**Marcus:** If Jessica gets us designs by end of this week, yes.
+Sarah: Good idea for phase two. Lets focus on these five first. What else is critical for Q1?
 
-**Jessica:** I'll have wireframes by Thursday, full designs by Monday.
+Lisa: Mobile access. I have at least ten customers threatening to churn because field workers cant use the platform.
 
-**David:** This would be huge for sales. Can we also create a template marketplace eventually? Let customers share their workflows?
+Marcus: Thats a bigger effort. Full mobile app would be three to four months minimum.
 
-**Sarah:** Good idea for phase 2. Let's focus on these 5 first. What else is critical for Q1?
+Jessica: What about a progressive web app? We could get basic workflow viewing and editing in six weeks.
 
-**Lisa:** Mobile access. I have at least 10 customers threatening to churn because field workers can't use the platform. 
+Marcus: Hmm if we limit features just view edit and complete workflows PWA could work. No workflow creation on mobile initially.
 
-**Marcus:** That's a bigger effort. Full mobile app would be 3-4 months minimum.
+Sarah: Lets pursue that. Basic mobile access is better than none. David would that help with the field service deals?
 
-**Jessica:** What about a progressive web app? We could get basic workflow viewing and editing in 6 weeks.
+David: Absolutely. Even read only would help but light editing is the sweet spot.
 
-**Marcus:** Hmm, if we limit features - just view, edit, and complete workflows - PWA could work. No workflow creation on mobile initially.
+Sarah: OK so our Q1 priorities. Five basic templates Sprint twenty three. PWA for mobile Sprints twenty four to twenty six. What else is critical?
 
-**Sarah:** Let's pursue that. Basic mobile access is better than none. David, would that help with the field service deals?
+Lisa: Better analytics. Customers cant prove ROI to their bosses. They need dashboards showing time saved efficiency gains etc.
 
-**David:** Absolutely. Even read-only would help, but light editing is the sweet spot.
+Marcus: We have all that data just not surfaced well. Thats mostly frontend work.
 
-**Sarah:** Ok, so our Q1 priorities:
-1. 5 basic templates - Sprint 23
-2. PWA for mobile - Sprints 24-26
-3. What else is critical?
+Jessica: I could design a simple analytics dashboard in parallel with the other work. Maybe two sprints?
 
-**Lisa:** Better analytics. Customers can't prove ROI to their bosses. They need dashboards showing time saved, efficiency gains, etc.
+Sarah: Lets add that to Sprint twenty five to twenty six after templates launch. Any other critical items?
 
-**Marcus:** We have all that data, just not surfaced well. That's mostly frontend work.
+David: Slack integration. Every prospect asks about it.
 
-**Jessica:** I could design a simple analytics dashboard in parallel with the other work. Maybe 2 sprints?
+Marcus: Thats actually easy maybe one sprint. We can use their workflow builder API.
 
-**Sarah:** Let's add that to Sprint 25-26, after templates launch. Any other critical items?
+Sarah: Great lets add that to Sprint twenty four. So our Q1 roadmap Sprint twenty three template system five templates. Sprint twenty four Slack integration. Sprints twenty four to twenty six mobile PWA. Sprints twenty five to twenty six analytics dashboard.
 
-**David:** Slack integration. Every prospect asks about it.
+Lisa: This would address eighty percent of my escalations. Excited to see it happen.
 
-**Marcus:** That's actually easy - maybe 1 sprint. We can use their workflow builder API.
+David: Same here. This roadmap would unblock about two million dollars in pipeline.
 
-**Sarah:** Great, let's add that to Sprint 24. So our Q1 roadmap:
-- Sprint 23: Template system (5 templates)
-- Sprint 24: Slack integration
-- Sprints 24-26: Mobile PWA
-- Sprints 25-26: Analytics dashboard
+Marcus: Aggressive but doable if we dont scope creep. Sarah can you lock down requirements?
 
-**Lisa:** This would address 80% of my escalations. Excited to see it happen.
+Sarah: Ill have PRDs for templates and mobile by end of week. Jessica lets sync tomorrow on design priorities.
 
-**David:** Same here. This roadmap would unblock about $2M in pipeline.
+Jessica: Sounds good. Ill start on template wireframes today.
 
-**Marcus:** Aggressive but doable if we don't scope creep. Sarah, can you lock down requirements?
+Sarah: Great meeting everyone. Lets check in again next week on progress. I need to write PRD for template system by Friday. Write PRD for mobile PWA by Friday. Schedule design sync with Jessica for tomorrow. Lock down requirements to prevent scope creep.
 
-**Sarah:** I'll have PRDs for templates and mobile by end of week. Jessica, let's sync tomorrow on design priorities.
+Jessica: Ill create template wireframes by Thursday. Complete template designs by Monday. Start mobile PWA design research.
 
-**Jessica:** Sounds good. I'll start on template wireframes today.
+Marcus: Ill estimate technical effort for Slack integration. Identify engineers for template project. Research PWA frameworks and constraints.
 
-**Sarah:** Great meeting everyone. Let's check in again next week on progress.
+Lisa: Ill provide detailed template requirements based on customer data. Identify beta customers for template testing. Document common customizations needed.
 
-## Action Items
+David: Ill create sales collateral for template system. Identify prospects waiting for mobile access. Quantify revenue impact of Q1 roadmap.
 
-**Sarah:**
-- [ ] Write PRD for template system by Friday
-- [ ] Write PRD for mobile PWA by Friday  
-- [ ] Schedule design sync with Jessica for tomorrow
-- [ ] Lock down requirements to prevent scope creep
-
-**Jessica:**
-- [ ] Create template wireframes by Thursday
-- [ ] Complete template designs by Monday
-- [ ] Start mobile PWA design research
-
-**Marcus:**
-- [ ] Estimate technical effort for Slack integration
-- [ ] Identify engineers for template project
-- [ ] Research PWA frameworks and constraints
-
-**Lisa:**
-- [ ] Provide detailed template requirements based on customer data
-- [ ] Identify beta customers for template testing
-- [ ] Document common customizations needed
-
-**David:**
-- [ ] Create sales collateral for template system
-- [ ] Identify prospects waiting for mobile access
-- [ ] Quantify revenue impact of Q1 roadmap
-
-## Key Decisions
-1. Start with 5 basic templates vs comprehensive system
-2. Build PWA instead of native mobile apps
-3. Prioritize templates over analytics for faster impact
-4. Add Slack integration to Q1 based on sales feedback
-
-## Follow-up Meeting
-- Scheduled for January 22 to review progress
-- Jessica to present template designs
-- Marcus to share technical approach
+Sarah: Follow up meeting January twenty second to review progress.
